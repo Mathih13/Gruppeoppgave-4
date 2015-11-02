@@ -1,5 +1,7 @@
 .wholestyle {
     font-family: "Courier New", monospace;
+  
+
 }
 
 
@@ -23,6 +25,7 @@
     margin: auto;
     margin-top: -5px;
     width: 30%;
+    background-color: #5379AA;
 }
 
 /* Navigation Buttons */
@@ -82,7 +85,7 @@ padding: 0;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    
+  margin-bottom: -25px;
 }
 
 .background-login{
@@ -98,6 +101,8 @@ padding: 0;
     margin-bottom: -30px;
     
 }
+
+#
 
 
 
@@ -245,15 +250,103 @@ padding: 0;
     background-color: #000;
 }
 
-.recovery {
-    margin-top: 41%;
-    margin-right: 70%;
-}
-
-.recovery a{
-        text-decoration: underline;
+#recovery {
+    
+    text-decoration: underline;
     color: #fff;
     text-align: relative;
     line-height: 50px;
     font-size: 15px;
+}
+
+recovery a {
+    margin-top: 41%;
+    margin-right: 70%;
+}
+
+#registrationskip {
+    font-size: 10px;
+    margin: auto;
+}
+
+#frontpageimage:hover {
+    cursor: pointer;
+}
+
+#background-profile {
+    background-color: #5379AA;
+    margin-bottom: -15px;
+}
+
+.profilepiccontainer {
+    float: left;
+    margin-left: 36%;
+    margin-top: 5%;
+}
+
+#follow {
+    float: right;
+    margin-right: 55px;
+    color: #fff;
+    margin-top: 25%;
+    
+    
+}
+
+#addfollow {
+    margin-top: 18%;
+    margin-right: -22%;
+}
+
+#navfrontpage {
+
+}
+
+#fullfollowbutton:hover {
+    cursor: pointer;
+}
+
+#artistinfo p {
+    color: #fff;
+    font-size: 20px;
+}
+
+div.img {
+    margin: 5px;
+    padding: 1px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+.gallery {
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+
+#profiledivider {
+   background-color: #415773;
+    height: 30px;
+}
+
+#profiledivider p {
+    font-size: 30px;
 }

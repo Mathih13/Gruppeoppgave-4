@@ -35,8 +35,7 @@
       <div class="content">
         <div class="first-demo-image">   
           <h1>
-              <img id="information" src="assets/frontpage%20image%204.jpg" width="428" height="311" style="display:none;" onclick="show('artwork'); hide('information')">
-              <img id="artwork" src="assets/frontpage%20image%201.png" onclick="show('information'); hide('artwork')" width="428" height="311"/>
+              <img id="frontpageimage" src="assets/frontpage%20image%201.png" onclick="show('information'); hide('artwork')" width="428" height="311"/>
               
               </h1>
         
@@ -58,9 +57,8 @@
           
           
           <div class="other-demo-images">   
-          <h1><a href="#">
+          <h1>
               <img src="assets/frontpage%20image%202.jpg" width="428">
-              </a>
               </h1>
         
           <div class="image-description-1">
@@ -81,9 +79,8 @@
               
         
         <div class="other-demo-images">        
-        <h1><a href="#">
+        <h1>
             <img src="assets/laading.jpg"  width="428">
-            </a>
             </h1>
           <div class="image-description-1">
               <p href="#">Benjamin Laading</p>
@@ -101,25 +98,16 @@
             </div>
           </div>
               
-              
-
-           
           
           </div>
        
                      
-   
-       
-       
-        <div class="large-4 columns">
-          
-        </div>
       </div>
     
     
     
     <div class="nav">
-          <ul class="container">
+          <ul id="navfrontpage" class="container">
             <li><a id="navindicatorfrontpage" href="#" class="button">Forside</a></li>
             <li><a href="#" class="button">Min Profil</a></li>
             <li><a href="#" class="button">Sorter</a></li>
@@ -133,19 +121,9 @@
 
           
 </div>
-    
-        <script src="scripts.js" type="text/javascript">  </script> 
- <script>
-  function show (toBlock){
-    setDisplay(toBlock, 'block');
-  }
-  function hide (toNone) {
-    setDisplay(toNone, 'none');
-  }
-  function setDisplay (target, str) {
-    document.getElementById(target).style.display = str;
-  }
-</script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="scripts.js"></script> 
+
     </body>
     </body>
 <a href="start.html">Start prosjektet på nytt</a>
