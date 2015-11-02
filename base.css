@@ -1,0 +1,259 @@
+.wholestyle {
+    font-family: "Courier New", monospace;
+}
+
+
+
+.logo {
+   margin: auto;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    width: 30%;
+        
+    
+}
+
+.h1 {
+    margin-bottom: -100px;
+}
+
+.phone {
+    max-width: 428px;
+    height: 595px;
+    margin: auto;
+    margin-top: -5px;
+    width: 30%;
+}
+
+/* Navigation Buttons */
+.nav ul {
+height: 100px;
+list-style: none;
+margin: 0 auto;
+padding: 0;
+}
+
+.nav{
+  background-color: #5379AA;
+  height: 50px;
+	width: 428px;
+  line-height: 30px;
+    text-align: center;
+    position: fixed;
+    margin-bottom: -140 px;
+    margin-top: -10px;
+    
+    
+}
+
+#navindicatorfrontpage {
+    text-decoration: underline;
+}
+
+.nav li {
+  display: inline-block;
+  color: #fff;
+  padding: 0px 15px;
+  height: 50px;
+  -webkit-transition: padding .5s;
+
+}
+
+.nav li:hover {
+	cursor: pointer;
+	transition: .5s ease;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.nav a {
+  color: #fff;
+  display: block;
+  height: 80px;
+  text-decoration: none;
+}
+
+.background {
+  height: 600px;
+    width: 428px;
+  text-align: center;
+  background: #fff no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+.background-login{
+  height: 670px;
+   width: 428px;
+  text-align: center;
+  background: url(assets/fullbackground.png) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding-top: 30px;
+    margin-bottom: -30px;
+    
+}
+
+
+
+
+.first-demo-image{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #486590;
+    margin-top: -23px;
+    border-top: none;
+    
+}
+
+.other-demo-images{
+    border-style: solid;
+    border-width: 2px;
+    border-top: none;
+    border-color: #486590;
+    margin-top: -18px;
+}
+
+.image-description-1 {
+    background-color: #5379AA;
+    height: 30px;
+    margin-top: -32px;
+}
+
+.image-description-1 p {
+    margin:auto;
+    margin-top: 5px;
+    margin-left: 2px;
+    color: white;
+    height: 30px;
+    float: left;
+   
+}
+
+.image-description-1 p:hover {
+
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+.image-description-buttons {
+    list-style: none;
+    
+
+}
+
+.image-description-buttons li {
+    display: inline-block;
+    padding: 0px 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.content {
+    margin-top: 20px;
+}
+
+
+.login {
+    margin-top: 350px;
+    background: #5379AA;
+    height: 50px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+  text-decoration: none;
+    
+}
+
+
+
+.login a {
+    text-decoration: none;
+    color: #fff;
+    text-align: relative;
+    line-height: 50px;
+    font-size: 30px;
+  
+    
+    
+}
+
+.registrer {
+    margin-top: 10px;
+    background: #5379AA;
+    height: 50px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+  text-decoration: none;
+}
+
+.registrer a {
+       text-decoration: none;
+    color: #fff;
+    text-align: relative;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.login:hover {
+    cursor: pointer;
+	transition: .5s ease;
+    background-color: #000;
+}
+
+.registrer:hover {
+    cursor: pointer;
+	transition: .5s ease;
+    background-color: #000;
+}
+
+.intro p {
+    text-align: center;
+}
+
+.start {
+    margin-top: 100 px;
+    background: #5379AA;
+    height: 50px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+  text-decoration: none;
+}
+
+.start a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-left: 40px;
+    
+    
+}
+
+.registrer:hover {
+    cursor: pointer;
+	transition: .5s ease;
+    background-color: #000;
+}
+
+.recovery {
+    margin-top: 41%;
+    margin-right: 70%;
+}
+
+.recovery a{
+        text-decoration: underline;
+    color: #fff;
+    text-align: relative;
+    line-height: 50px;
+    font-size: 15px;
+}
