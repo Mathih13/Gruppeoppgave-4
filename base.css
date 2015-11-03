@@ -39,6 +39,10 @@ padding: 0;
 
 #navmyprofile {
     margin-left: 34.6%;
+    padding-bottom: 10px;
+}
+
+#navprofileinspect {
 }
 
 .nav{
@@ -50,8 +54,6 @@ padding: 0;
     position: fixed;
     margin-bottom: -140 px;
     margin-top: -10px;
-    
-    
 }
 
 #navindicatorfrontpage {
@@ -66,7 +68,7 @@ padding: 0;
   display: inline-block;
   color: #fff;
   padding: 0px 15px;
-  height: 50px;
+  height: 55px;
   -webkit-transition: padding .5s;
 
 }
@@ -94,7 +96,7 @@ padding: 0;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: -25px;
+  margin-bottom: -20px;
 }
 
 .background-login{
@@ -286,6 +288,12 @@ recovery a {
     background-color: #5379AA;
     height: 720px;
     margin-bottom: px;
+}
+
+#background-profileinspect {
+    background-color: #5379AA;
+    height: 720px;
+    margin-bottom: -140px;
 }
 
 .profilepiccontainer {
