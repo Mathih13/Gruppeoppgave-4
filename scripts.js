@@ -29,3 +29,6 @@ $("#settingsbutton").click(function () {
       alert("Beklager, denne funksjonen er i ustand.");
  });
 
+$("#fulladdartbutton").click(function () { 
+      alert("Beklager, denne funksjonen er i ustand.");
+ });
