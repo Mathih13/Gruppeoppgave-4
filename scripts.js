@@ -25,3 +25,7 @@ $("#fullfollowbutton").click(function () {
         }
  });
 
+$("#settingsbutton").click(function () { 
+      alert("Beklager, denne funksjonen er i ustand.");
+ });
+

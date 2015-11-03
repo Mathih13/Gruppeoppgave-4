@@ -1,4 +1,4 @@
-.wholestyle {
+html {
     font-family: "Courier New", monospace;
   
 
@@ -21,11 +21,11 @@
 
 .phone {
     max-width: 428px;
-    height: 595px;
+    height: 670px;
+    max-height: 595px;
     margin: auto;
     margin-top: -5px;
     width: 30%;
-    background-color: #5379AA;
 }
 
 /* Navigation Buttons */
@@ -34,6 +34,11 @@ height: 100px;
 list-style: none;
 margin: 0 auto;
 padding: 0;
+
+}
+
+#navmyprofile {
+    margin-left: 34.6%;
 }
 
 .nav{
@@ -50,6 +55,10 @@ padding: 0;
 }
 
 #navindicatorfrontpage {
+    text-decoration: underline;
+}
+
+#navindicatormyprofile {
     text-decoration: underline;
 }
 
@@ -275,12 +284,19 @@ recovery a {
 
 #background-profile {
     background-color: #5379AA;
-    margin-bottom: -15px;
+    height: 720px;
+    margin-bottom: px;
 }
 
 .profilepiccontainer {
+    float: right;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.profilepiccontainer-inspecting {
     float: left;
-    margin-left: 36%;
+    margin-left: 35.5%;
     margin-top: 5%;
 }
 
@@ -291,6 +307,12 @@ recovery a {
     margin-top: 25%;
     
     
+}
+
+#settings {
+    float: left;
+    color: #fff;
+    margin: 1%;
 }
 
 #addfollow {
@@ -339,6 +361,8 @@ div.desc {
 .gallery {
     margin-left: 7%;
     margin-top: 5%;
+    margin-bottom: -20px;   
+    
 }
 
 
@@ -349,4 +373,20 @@ div.desc {
 
 #profiledivider p {
     font-size: 30px;
+}
+
+#settingsbutton {
+    float: left;
+    margin: 25px;
+    margin-top: 77px;
+    
+}
+
+#settingsbutton:hover {
+    cursor: pointer;
+}
+
+
+#settingsimage {
+    margin-left: -10px;
 }
