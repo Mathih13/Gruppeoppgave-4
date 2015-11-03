@@ -26,6 +26,8 @@ html {
     margin: auto;
     margin-top: -5px;
     width: 30%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 /* Navigation Buttons */
