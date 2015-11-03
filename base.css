@@ -235,7 +235,7 @@ padding: 0;
 }
 
 .start {
-    margin-top: 100 px;
+    margin-top: 100px;
     background: #5379AA;
     height: 50px;
     width: 175px;
@@ -397,4 +397,19 @@ div.desc {
 
 #settingsimage {
     margin-left: -10px;
+}
+
+
+.creds {
+    margin-top: -100px;
+    margin-left: 20px;
+    margin-right: 80%;
+    font-size: 13px;
+}
+
+#Gruppe {
+    float: right;
+    margin-left: 83%;
+    font-size: 12px;
+    margin-bottom: -100px;
 }
