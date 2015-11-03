@@ -25,6 +25,25 @@ $("#fullfollowbutton").click(function () {
         }
  });
 
+
+$("img#star").click(function () { 
+      if($(this).attr("src") == "assets/star.png")
+        {
+        $(this).attr("src", "assets/stjerne-merket.png");
+        }
+        else
+        {
+         $(this).attr("src", "assets/star.png");
+        }
+ });
+
+
+
+
+
+
+
+
 $("#settingsbutton").click(function () { 
       alert("Beklager, denne funksjonen er i ustand.");
  });

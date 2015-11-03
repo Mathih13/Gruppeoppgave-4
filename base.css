@@ -437,3 +437,7 @@ div.desc {
     font-size: 12px;
     margin-bottom: -100px;
 }
+
+#star:hover {
+    cursor: pointer;
+}
