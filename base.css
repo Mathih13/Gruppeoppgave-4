@@ -4,6 +4,14 @@ html {
 
 }
 
+.wholestyle{
+    max-width: 428px;
+    margin-left: 35%;
+}
+
+.wholestyle-front {
+    
+}
 
 
 .logo {
@@ -15,19 +23,35 @@ html {
     
 }
 
+.logo-login{
+    margin:;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    width: 30%;
+}
+
 .h1 {
     margin-bottom: -100px;
 }
 
 .phone {
-    max-width: 428px;
+    padding-right: 70%;
     height: 670px;
     max-height: 595px;
-    margin: auto;
     margin-top: -5px;
     width: 30%;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.phone-index{
+    height: 670px;
+    max-height: 595px;
+    margin-top: -5px;
+    width: 30%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-left: 35%;
 }
 
 /* Navigation Buttons */
@@ -40,8 +64,6 @@ padding: 0;
 }
 
 #navmyprofile {
-    margin-left: 34.6%;
-    padding-bottom: 10px;
 }
 
 #navprofileinspect {
@@ -350,6 +372,11 @@ recovery a {
 
 #fullfollowbutton:hover {
     cursor: pointer;
+}
+
+#fullfollowbutton {
+    width: auto;
+    
 }
 
 #fulladdartbutton:hover {
