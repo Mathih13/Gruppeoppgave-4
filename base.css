@@ -35,11 +35,11 @@ html {
 }
 
 .phone {
-    padding-right: 70%;
+    
     height: 670px;
     max-height: 595px;
     margin-top: -5px;
-    width: 30%;
+    width: 428px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -468,3 +468,32 @@ div.desc {
 #star:hover {
     cursor: pointer;
 }
+
+
+ /* DO NOT ADD ANYTHING BELOW THIS!! 
+    ANYTHING ADDED MUST BE FOR MOBILE ONLY*/
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px)  {
+    
+    .wholestyle-front{
+        width: 400px;
+        height: 90%;;
+        margin-left: 15%;
+        font-size: 25px;
+        margin-bottom: 15%;
+    }
+    
+    .mobile-wrapper {
+       max-width: 400px;
+        margin-left: 0px;
+    }
+    
+    .nav {
+        max-width: 428px;
+        margin-left: 0px;
+    }
+    
+    #return {
+        margin: 200%;
+    }
+
+	}
