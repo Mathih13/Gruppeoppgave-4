@@ -1,6 +1,6 @@
 html {
-    font-family: "Courier New", monospace;
-  
+     font-family: 'Helvetica Neue';
+ font-weight: light;
 
 }
 
@@ -31,14 +31,14 @@ html {
 }
 
 .h1 {
-    margin-bottom: -100px;
+    margin-bottom: 0px;
 }
 
 .phone {
     
     height: 670px;
     max-height: 595px;
-    margin-top: -5px;
+    margin-top:;
     width: 428px;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -73,15 +73,19 @@ padding: 0;
   background-color: #5379AA;
   height: 50px;
 	width: 428px;
-  line-height: 30px;
+  line-height: 40px;
     text-align: center;
     position: fixed;
     margin-bottom: -140 px;
-    margin-top: -10px;
+    margin-top: 18px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-top-color: #213f60;
 }
 
 #navindicatorfrontpage {
     text-decoration: underline;
+    
 }
 
 #navindicatormyprofile {
@@ -89,27 +93,34 @@ padding: 0;
 }
 
 .nav li {
-  display: inline-block;
-  color: #fff;
-  padding: 0px 15px;
-  height: 55px;
-  -webkit-transition: padding .5s;
+    display: inline-block;
+    color: #fff;
+    padding: 0px 0px;
+    height: 55px;
 
 }
 
+.linebutton {
+    border-left-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-width: 1px;
+    border-color: #213f60;
+}
+
+
 .nav li:hover {
 	cursor: pointer;
-	transition: .5s ease;
-	padding-left:25px;
-	padding-right:25px;
 }
 
 .nav a {
   color: #fff;
   display: block;
-  height: 80px;
+  height: 50px;
   text-decoration: none;
+  padding: 0px 25px;
 }
+
 
 .background {
   height: 600px;
@@ -121,6 +132,7 @@ padding: 0;
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: -20px;
+    margin-top: -30px;
 }
 
 .background-login{
@@ -152,11 +164,8 @@ padding: 0;
 }
 
 .other-demo-images{
-    border-style: solid;
-    border-width: 2px;
-    border-top: none;
-    border-color: #486590;
-    margin-top: -18px;
+    border-style: none;
+    margin-top: -25px;
 }
 
 .image-description-1 {
@@ -197,6 +206,7 @@ padding: 0;
 
 .content {
     margin-top: 20px;
+    background: #fff;
 }
 
 
@@ -465,7 +475,7 @@ div.desc {
     margin-bottom: -100px;
 }
 
-#star:hover {
+#like:hover {
     cursor: pointer;
 }
 

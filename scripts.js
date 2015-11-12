@@ -26,14 +26,14 @@ $("#fullfollowbutton").click(function () {
  });
 
 
-$("img#star").click(function () { 
-      if($(this).attr("src") == "assets/star.png")
+$("img#like").click(function () { 
+      if($(this).attr("src") == "assets/ic_favorite_border_white_24px.svg")
         {
-        $(this).attr("src", "assets/stjerne-merket.png");
+        $(this).attr("src", "assets/ic_favorite_white_24px.svg");
         }
         else
         {
-         $(this).attr("src", "assets/star.png");
+         $(this).attr("src", "assets/ic_favorite_border_white_24px.svg");
         }
  });
 
