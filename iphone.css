@@ -1,0 +1,40 @@
+body { 
+    max-height: 100px;
+    background: red; 
+}
+   
+    
+    
+    .logo {
+    
+        display: none;
+    }
+    .wholestyle-front{
+        width: 400px;
+        height: 90%;;
+        margin-left: 15%;
+        font-size: 25px;
+        margin-bottom: 15%;
+    }
+    
+    #return {
+     display: none;
+    }
+    
+    .nav li {
+        max-width: 100%;
+        
+    }
+
+    .nav { 
+    margin-top: 114%;
+   
+}
+
+.phone { 
+    max-height: 200%;
+    height: 400%;
+    max-width: 100%;
+}
+
+    
