@@ -1,40 +1,128 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body { 
-    max-height: 100px;
-    background: red; 
+    height: 100%;
+    width: 100%;
 }
    
+.mobile-wrapper {
+    height: 100%;
+    width: 100%;
+}
     
     
     .logo {
-    
         display: none;
     }
-    .wholestyle-front{
-        width: 400px;
-        height: 90%;;
-        margin-left: 15%;
-        font-size: 25px;
-        margin-bottom: 15%;
+
+    .wholestyle{
+        height: 100%;
+        width: auto;
+        margin-left: 0%;
+        max-width: 100%;
+        
     }
     
     #return {
      display: none;
     }
-    
-    .nav li {
-        max-width: 100%;
-        
-    }
 
-    .nav { 
-    margin-top: 114%;
+    .nav{ 
+    margin-top: 2.9%;
+    margin-left: 0.5%;
+    width: 100%;
+    height: 11%;
    
 }
 
+    .nav ul{ 
+        
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+   
+}
+    
+    .nav li {
+        display: inline-block;
+        width: ;
+        height: 100%;
+        font-size: 200%;
+        margin-top: 3%;
+        padding: 4%;
+        text-align: center;
+        
+    }
+
+.linebutton {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200%;
+    
+    }
+
+
+
+
+
 .phone { 
-    max-height: 200%;
-    height: 400%;
+    width: 100%;
+    height: 100%;
     max-width: 100%;
+    max-height: 90%;
+    
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.content {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.first-demo-image {
+    
+}
+
+.image-description-1 {
+    height: 10%;
+    
+}
+
+.image-description-buttons {
+    text-align: right;
+}
+
+.image-description-1 {
+    margin-left: 0.5%;
+}
+
+.image-description-1 p {
+    margin-top: 0.5%;
+    font-size: 30px;
+	border-style:solid;
+	border-color:#3b5678 #3b5678 #3b5678 #3b5678;
+	border-width:1px 1px 1px 1px;
+	color:#fff;
+    margin-left: 2%;
+    padding: 0.5%;
+}
+
+#frontpageimage {
+    width: 99%;
+    height: 100%;
 }
 
     
