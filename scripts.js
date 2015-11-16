@@ -1,4 +1,4 @@
-$("img#frontpageimage").click(function () { 
+$("img#frontpageimage1").click(function () { 
       if($(this).attr("src") == "assets/frontpage%20image%201.png")
         {
         $(this).attr("src", "assets/Bildeavmannmedtekstfinal.png");
