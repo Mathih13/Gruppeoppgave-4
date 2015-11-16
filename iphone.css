@@ -3,7 +3,8 @@
 html {
     height: 100%;
     width: 100%;
-    
+     font-family: 'AvenirNext-Regular';
+    font-weight:;
     
 }
 
@@ -40,7 +41,7 @@ body {
     .nav{ 
     width: 100%;
     height: 12%;
-   
+    margin-top: 1%;
 }
 
     .nav ul{ 
@@ -118,12 +119,14 @@ body {
 .image-description-1 p {
     margin-top: 2%;
     font-size: 250%;
-	border-style:solid;
-	border-color:#3b5678 #3b5678 #3b5678 #3b5678;
-	border-width:1px 1px 1px 1px;
-	color:#fff;
-    margin-left: 2%;
-
+    background: #336699;
+    color: #fff;
+    border: solid;
+    border-color: #1a334c;
+    border-radius: 5%;
+    padding: 1.5%;
+    margin-left: 1%;
+    line-height: 90%;
 }
 
 .image-description-buttons li {
@@ -262,4 +265,13 @@ body {
     height: 15%;
     width: 15%;
     margin-left: 5%;
+}
+
+.wholestyle-front {
+    height: 100%;
+    width: 100%;
+}
+
+.logoindex {
+    margin-left: 30%
 }
