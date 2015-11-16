@@ -97,7 +97,8 @@ body {
 }
 
 .image-description-1 {
-    height: 10%;
+    height: 30%;
+    padding-bottom: 1%;
     
 }
 
@@ -110,8 +111,8 @@ body {
 }
 
 .image-description-1 p {
-    margin-top: 0.5%;
-    font-size: 30px;
+    margin-top: 2%;
+    font-size: 250%;
 	border-style:solid;
 	border-color:#3b5678 #3b5678 #3b5678 #3b5678;
 	border-width:1px 1px 1px 1px;
@@ -120,9 +121,25 @@ body {
     padding: 0.5%;
 }
 
+.image-description-buttons li {
+    margin-top: 2%;
+    width: 10%;
+}
+
 #frontpageimage {
     width: 99%;
     height: 100%;
+}
+
+
+#like {
+    width: 60%;
+    height: 60%;
+}
+
+#interactbutton {
+    width: 60%;
+    height: 60%;
 }
 
     
