@@ -44,10 +44,10 @@ $("img#like").click(function () {
 
 
 
-$("#settingsbutton").click(function () { 
+$("img#settingsimage").click(function () { 
       alert("Beklager, denne funksjonen er i ustand.");
  });
 
-$("#fulladdartbutton").click(function () { 
+$("img#addart").click(function () { 
       alert("Beklager, denne funksjonen er i ustand.");
  });

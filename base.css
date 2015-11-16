@@ -481,6 +481,10 @@ div.desc {
     cursor: pointer;
 }
 
+.content {
+    background-color: #5379AA;
+}
+
 
  /* DO NOT ADD ANYTHING BELOW THIS!! 
     ANYTHING ADDED MUST BE FOR MOBILE ONLY*/
