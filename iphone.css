@@ -63,6 +63,7 @@ body {
         
     }
 
+
 .linebutton {
     text-align: center;
     margin-left: 10px;
@@ -247,4 +248,19 @@ body {
     height: 10%;
     width: 10%;
     margin-left: 15%;
+}
+
+ /* END OF MYPROFILE STYLING*/
+
+
+
+#fullfollowbutton p {
+    display: none;
+}
+
+#addfollow {
+    margin-top: 25%;
+    height: 15%;
+    width: 15%;
+    margin-left: 5%;
 }
