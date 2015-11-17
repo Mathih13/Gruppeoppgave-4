@@ -179,7 +179,7 @@ body {
 }
 
 #phone-registration {
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .login:hover {
