@@ -110,7 +110,7 @@ body {
     border-width: 1px 1px 2px 1px;
     margin-top: 5%;
     width: 30%;
-    margin-left: 32%;
+    margin-left: 32ge%;
     padding: 2%;
     padding-left: 3%;
     padding-right: 3%;
@@ -258,6 +258,7 @@ body {
     background: #336699;
     color: #fff;
     border: solid;
+    border-width: 1px 3px 3px 1px;
     border-color: #1a334c;
     border-radius: 5%;
     padding: 1.5%;
