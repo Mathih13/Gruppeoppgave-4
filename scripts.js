@@ -14,7 +14,7 @@ $("#recovery").click(function() {
         alert("Hei!\n\nDenne funksjonen er desverre skrudd av under prototyping.");
 });
 
-$("#fullfollowbutton").click(function () { 
+$("img#addfollow").click(function () { 
       if($("#addfollow").attr("src") == "assets/ic_add_circle_outline_black_24px.svg")
         {
         $("#addfollow").attr("src", "assets/ic_check_circle_black_24px.svg");
@@ -40,7 +40,9 @@ $("img#like").click(function () {
 
 
 
-
+$("img#interactbutton").click(function () { 
+      alert("Beklager, denne funksjonen er i ustand.");
+ });
 
 
 

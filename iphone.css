@@ -13,7 +13,7 @@ body {
     height: 100%;
     width: 100%;
     margin-left: 0%;
-    margin-top: 0%
+    margin-top: 3%
 }
    
 .mobile-wrapper {
@@ -37,7 +37,7 @@ body {
 
 #loginbanner {
     width: 100%;
-    height: 300%;
+    height: 10%;
 }
 
 .login {
@@ -158,7 +158,9 @@ body {
     }
 
 
-
+.intro {
+    display: none;
+}
 
 
 .phone { 
@@ -166,6 +168,7 @@ body {
     height: 100%;
     max-width: 100%;
     max-height: 90%;
+    
     
 }
 
@@ -266,6 +269,7 @@ body {
 #frontpageimage1 {
     width: 100%;
     height: 100%;
+    margin-top: -4px;
 }
 
 
@@ -408,6 +412,10 @@ body {
     display: none;
 }
 
+#fullfollowbutton {
+    
+}
+
 #addfollow {
     margin-top: 25%;
     height: 15%;
@@ -422,4 +430,8 @@ body {
 
 .logoindex {
     margin-left: 30%
+}
+
+.creds {
+    margin-top: -400px;
 }
