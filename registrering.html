@@ -2,12 +2,13 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="iphone.css" />
     <meta charset="utf-8">
     <title>Prosjekt: Skrik</title>
 </head>
 
 <div class="wholestyle">
-      <div class="logo-login">
+      <div class="logo-registrering">
           <a href="mainpage.html">
           <h1><img src="assets/SkrikLogoGruppe5.png" width="428"></h1>
               </a>
@@ -16,14 +17,16 @@
 
 
 
-<div class="phone">
+<div id="phone-registration" class="phone">
 
 
-    <a id="registrationskip" href="mainpage.html">Klikk her for å registrere</a>
-    <img src="assets/registrering.png" width="428">
+    
+    <img id="registrationbackground" src="assets/registrering.png" width="428">
+    
   
     
 </div>
+    <a id="registrationskip" href="mainpage.html">Klikk her for å registrere</a>
     
     
 </div>
@@ -35,5 +38,5 @@
     alert( "Hei!\n\nHer viser vi en forsmak på registrering. For å fortsette, trykk på linken over bildet. Takk." );
     });
     </script>   
-<a href="index.html">Start prosjektet på nytt</a>
+<a id="return" href="index.html">Start prosjektet på nytt</a>
 </html>

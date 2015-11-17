@@ -494,6 +494,10 @@ div.desc {
     background-color: #5379AA;
 }
 
+.input {
+    display: none;
+}
+
 
  /* DO NOT ADD ANYTHING BELOW THIS!! 
     ANYTHING ADDED MUST BE FOR MOBILE ONLY*/
