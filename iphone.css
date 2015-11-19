@@ -7,7 +7,6 @@ html {
     font-weight:;
     background-color: #5379AA;
     
-    
 }
 
 body { 
@@ -172,7 +171,7 @@ body {
         width: auto;
         margin-left: 0%;
         max-width: 100%;
-        overflow: none;
+        overflow: hidden;
         
     }
     
@@ -230,8 +229,7 @@ body {
     height: 100%;
     max-width: 100%;
     max-height: 90%;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
     
     
 }
