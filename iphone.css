@@ -45,6 +45,8 @@ body {
     margin-top: 3%;
     border-style: solid;
     border-width: 1px 2px 3px 2px;
+    border-color: #3D3C44;
+    background-color: #78AFF6;
     padding: 3%;
     width: 32%;
 }
@@ -53,35 +55,75 @@ body {
     font-size: 400%;
 }
 
+
+.gjest {
+    height:%;
+    margin-top: 25%;
+    border-style: solid;
+    border-width: 1px 2px 3px 2px;
+    border-color: #3D3C44;
+    background: #78AFF6;
+    padding: 3%;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#guest {
+    font-size: 400%;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+
+.gjest:hover {
+	transition: .5s ease;
+    background-color: #3A5577;
+}
+
 .input {
     display: block;
     margin-top: 20%;
     
 }
 
+
 #username {
+    background-color: #8F9FB5;
     height: 0%;
     width: 60%;
-    font-size: 300%; 
+    font-size: 300%;
     padding: 3%;
-  border: none;
-  border-bottom: solid 2px #c9c9c9;
-  transition: border 0.3s;
+    border: none;
+    border: solid 3px #3D3C44;
+    transition: border 0.3s;
     margin: 3%;
     border-radius: 5%;
     text-align: center;
+    box-shadow: none;
+}
+
+#username:focus { 
+    background-color: #fff;
 }
 
 #password {
-    font-size: 300%; 
-    height: %;
+    background-color: #8F9FB5;
+    height: 0%;
     width: 60%;
-      padding: 3%;
-  border: none;
-  border-bottom: solid 2px #c9c9c9;
-  transition: border 0.3s;
+    font-size: 300%;
+    padding: 3%;
+    border: none;
+    border: solid 3px #3D3C44;
+    transition: border 0.3s;
+    margin-bottom: 2%;
     border-radius: 5%;
-    text-align: center; 
+    text-align: center;
+    box-shadow: none;
+}
+
+#password:focus { 
+    background-color: #fff;
 }
 
 #password[type="text"].focus {
@@ -97,6 +139,8 @@ body {
 .registrer {
     border-style: solid;
     border-width: 1px 2px 3px 2px;
+    border-color: #3D3C44;
+    background: #78AFF6;
     padding: 3%;
     width: 32%;
 }
@@ -106,9 +150,6 @@ body {
 }
 
 .glemt {
-    border-style: solid;
-    border-width: 1px 1px 2px 1px;
-    margin-top: 5%;
     width: 30%;
     margin-left: 32%;
     padding: 2%;
@@ -201,12 +242,12 @@ body {
 
 .login:hover {
 	transition: .5s ease;
-    background-color: #000;
+    background-color: #3A5577;
 }
 
 .registrer:hover {
 	transition: .5s ease;
-    background-color: #000;
+    background-color: #3A5577;
 }
 
 
@@ -269,7 +310,7 @@ body {
 
 .image-description-1 p:hover {
     	transition: .5s ease;
-    background-color: #000;
+    background-color: #3A5577;
 }
 
 .image-description-buttons li {
@@ -310,6 +351,7 @@ body {
     width: 10%;
     font-size: 200%;
     border-width: 1px 1px 2px 1px;
+    border-color: #3D3C44;
     margin-left: 40%;
     margin-top: 15%;
     width: 20%;
@@ -453,4 +495,25 @@ body {
 
 .creds {
     margin-top: -400px;
+}
+
+::-webkit-input-placeholder {
+
+ color: #fff;
+
+}
+:-moz-placeholder { /* older Firefox*/
+
+ color: #fff;
+
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ 
+ color: #fff; 
+
+} 
+:-ms-input-placeholder { 
+
+ color: #fff;
+
 }
