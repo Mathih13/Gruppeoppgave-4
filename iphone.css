@@ -424,7 +424,10 @@ body {
 
 
 #fullfollowbutton p {
-    display: none;
+    float: right;
+    margin-top: 40%;
+    margin-right: -80px;
+    font-size: xx-large;
 }
 
 #fullfollowbutton {
@@ -435,7 +438,8 @@ body {
     margin-top: 25%;
     height: 15%;
     width: 15%;
-    margin-left: 5%;
+    float: right;
+    margin-right: 11%;
 }
 
 .wholestyle-front {

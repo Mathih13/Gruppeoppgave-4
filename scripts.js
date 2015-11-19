@@ -18,10 +18,14 @@ $("img#addfollow").click(function () {
       if($("#addfollow").attr("src") == "assets/ic_add_circle_outline_black_24px.svg")
         {
         $("#addfollow").attr("src", "assets/ic_check_circle_black_24px.svg");
+        document.getElementById("follow").innerHTML = "Følger";
+        document.getElementById("follow").style.marginRight="-92px";
         }
         else
         {
          $("#addfollow").attr("src", "assets/ic_add_circle_outline_black_24px.svg");
+         document.getElementById("follow").innerHTML = "Følg";
+         document.getElementById("follow").style.marginRight="-80px";    
         }
  });
 
