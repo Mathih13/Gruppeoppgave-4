@@ -49,6 +49,14 @@ $("img#interactbutton").click(function () {
  });
 
 
+$("#search").click(function () { 
+      alert("Beklager, denne funksjonen er i ustand.");
+ });
+
+$("#sort").click(function () { 
+      alert("Beklager, denne funksjonen er i ustand.");
+ });
+
 
 $("img#settingsimage").click(function () { 
       alert("Beklager, denne funksjonen er i ustand.");
