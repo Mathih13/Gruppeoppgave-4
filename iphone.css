@@ -6,6 +6,7 @@ html {
      font-family: 'AvenirNext-Regular';
     font-weight:;
     background-color: #5379AA;
+    overflow: scroll;
     
 }
 
@@ -171,7 +172,7 @@ body {
         width: auto;
         margin-left: 0%;
         max-width: 100%;
-        overflow: hidden;
+        overflow: none;
         
     }
     
@@ -229,6 +230,7 @@ body {
     height: 100%;
     max-width: 100%;
     max-height: 90%;
+    overflow: none;
     
     
 }
