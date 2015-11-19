@@ -198,12 +198,17 @@ body {
         width: ;
         height: 100%;
         font-size: 200%;
-        margin-top: 3%;
-        padding: 4%;
+        margin-top: 6%;
+        padding-left: 4%;
+        padding-right: 4%;
         text-align: center;
         
     }
     
+
+
+
+
 .nav li:hover {
 
 }
