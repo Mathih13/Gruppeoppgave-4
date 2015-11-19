@@ -6,7 +6,8 @@ html {
      font-family: 'AvenirNext-Regular';
     font-weight:;
     background-color: #5379AA;
-    overflow: scroll;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
     
 }
 
