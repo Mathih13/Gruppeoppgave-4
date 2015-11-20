@@ -90,7 +90,7 @@ body {
 
 
 #username {
-    background-color: #8F9FB5;
+    background-color: #fff;
     height: 0%;
     width: 60%;
     font-size: 300%;
@@ -106,10 +106,13 @@ body {
 
 #username:focus { 
     background-color: #fff;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #3A5577;
 }
 
 #password {
-    background-color: #8F9FB5;
+    background-color: #fff;
     height: 0%;
     width: 60%;
     font-size: 300%;
@@ -125,6 +128,9 @@ body {
 
 #password:focus { 
     background-color: #fff;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #3A5577;
 }
 
 #password[type="text"].focus {
@@ -513,21 +519,21 @@ body {
 
 ::-webkit-input-placeholder {
 
- color: #fff;
+ color: #91A2B8;
 
 }
 :-moz-placeholder { /* older Firefox*/
 
- color: #fff;
+ color: #91A2B8;
 
 }
 ::-moz-placeholder { /* Firefox 19+ */ 
  
- color: #fff; 
+ color: #91A2B8; 
 
 } 
 :-ms-input-placeholder { 
 
- color: #fff;
+ color: #91A2B8;
 
 }
