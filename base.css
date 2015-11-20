@@ -526,3 +526,11 @@ div.desc {
       
             
 }
+
+@media (min-width: @screen-lg-min) { 
+
+    .wholestyle {
+        display: none;
+      }
+
+}
