@@ -314,13 +314,11 @@ body {
 .image-description-1 p {
     margin-top: 2%;
     font-size: 250%;
-    background: #78AFF6;
     color: #fff;
     border: solid;
      border-style: solid;
     border-width: 1px 2px 3px 2px;
     border-color: #3D3C44;
-    background-color: #78AFF6;
     border-radius: 5%;
     padding: 1.5%;
     margin-left: 1%;
