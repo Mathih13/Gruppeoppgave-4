@@ -501,7 +501,28 @@ div.desc {
 
  /* DO NOT ADD ANYTHING BELOW THIS!! 
     ANYTHING ADDED MUST BE FOR MOBILE ONLY*/
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px)  {
 
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      
+      .wholestyle {
+        display: none;
+      }
+      
+}
 
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      
+    .wholestyle {
+        display: none;
+      }
+      
+            
 }
