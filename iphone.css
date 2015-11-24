@@ -58,7 +58,7 @@ body {
 
 .gjest {
     height:%;
-    margin-top: 13%;
+    margin-top: 2%;
     border-style: solid;
     border-width: 1px 2px 3px 2px;
     border-color: #3D3C44;
@@ -151,6 +151,7 @@ body {
     border-radius: 4%;
     padding: 3%;
     width: 32%;
+    margin-top: 20%;
 }
 
 .registrer a{
